@@ -11,6 +11,15 @@ router.get('/', async (req, res) => {
 
 });
 
+//SHOW ONE TASK
+router.get('/:id', async (req, res) => {
+
+    const task = await Task.findById(req.params.id, req.body);
+    res.json(task);
+
+
+});
+
 //ADD TASK
 router.post('/', async (req, res) => {
 

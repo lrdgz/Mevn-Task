@@ -21,7 +21,7 @@ app.use(express.json());
 
 
 //Routes
-app.use('/tasks', require('./routes/tasks'))
+app.use('/api/tasks', require('./routes/tasks'))
 
 
 //Static Files
