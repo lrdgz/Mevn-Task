@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development"
+    "webpack": "webpack --mode development",
+    "watch": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.19",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
